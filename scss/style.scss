@@ -16,6 +16,7 @@ body {
   padding: 40px 50px;
   background: #fff;
   max-width: 736px;
+  height: 1708px;
   margin: 0 auto;
   margin-top: 134px;
 
@@ -40,12 +41,13 @@ body {
     height: 40px;
   }
   p {
-    margin-top: 8px;
+    margin-top: 24px;
     font-size: 16px;
     font-weight: 400;
   }
 }
 .title {
+  margin-top: 24px;
   padding: 28px;
   max-width: 656px;
   height: 180px;
@@ -58,6 +60,7 @@ body {
     color: #7a284e;
   }
   ul {
+    margin-top: 16px;
     padding: 0 25px;
     li {
       color: #5f564d;
@@ -72,10 +75,12 @@ body {
   }
 }
 .title_2 {
+  margin-top: 32px;
   width: 656px;
   height: 180px;
 
   h4 {
+    // margin-top: 24px;
     font-size: 28px;
     font-family: Young Serif;
     font-weight: 600;
@@ -94,11 +99,9 @@ body {
   }
 }
 .title_3 {
-  margin-top: 32px;
+  margin-top: 64px;
   width: 656px;
-  height: 180px;
-  background: #fff7fb;
-
+  // height: 332px;
   h4 {
     font-size: 28px;
     font-family: Young Serif;
@@ -122,9 +125,8 @@ body {
   }
 }
 .title_4 {
-  margin-top: 150px;
+  margin-top: 64px;
   width: 656px;
-  height: 268px;
 
   h4 {
     font-size: 28px;
@@ -132,7 +134,16 @@ body {
     font-weight: 600;
     color: #7a284e;
   }
+  p {
+    margin-top: 24px;
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5f564d;
+  }
   table {
+    margin-top: 24px;
     border-spacing: 0;
     width: 100%;
     td {
@@ -151,6 +162,7 @@ body {
   .container {
     margin: 0 auto;
     max-width: 375px;
+    height: 1900px;
     padding: 0;
     img {
       width: 375px;
@@ -193,6 +205,5 @@ body {
   .title_4 {
     margin: 0 auto;
     width: 311px;
-    height: 292px;
   }
 }
