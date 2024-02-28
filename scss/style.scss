@@ -163,7 +163,7 @@ body {
   .container {
     margin: 0 auto;
     max-width: 375px;
-    height: 1900px;
+    height: 1950px;
     padding: 0;
     img {
       border-radius: 1px;
@@ -208,5 +208,12 @@ body {
   .title_4 {
     margin: 0 auto;
     width: 311px;
+    table {
+      tr {
+        td {
+          padding: 14px 32px;
+        }
+      }
+    }
   }
 }
